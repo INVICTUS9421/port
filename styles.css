@@ -1,0 +1,45 @@
+/* Reset some default margin and padding for consistency */
+body, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set a default font */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header with your name */
+#name {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add some space between sections with a horizontal line */
+hr {
+    margin: 20px 0;
+}
+
+/* Style the summary section */
+h3 {
+    color: #555;
+}
+
+img {
+    display: block; /* To center the image */
+    margin: 20px auto; /* Add space around the image and center it */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border-radius: 10px; /* Add rounded corners to the image */
+}
+
+/* Style the education section */
+li {
+    list-style: none; /* Remove the default list styling */
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #3498db; /* Set a color for the strong element (e.g., education titles) */
+}
